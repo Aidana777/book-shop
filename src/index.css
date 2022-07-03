@@ -33,7 +33,8 @@ button{
 a{
   color: inherit;
   text-decoration: none;
+  margin-top: 5px;
 }
-imgz{
+img{
   display: block;
 }
