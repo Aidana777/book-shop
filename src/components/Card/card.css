@@ -1,0 +1,46 @@
+:root {
+    --primary: #0156FF;
+    --color5: #8C8C8C;
+    --color6: #CCCCCC;
+    --color7: #EBEBEB;
+    --color8: #000000;
+    --color9: #C94D3F;
+    --color11: #666666;
+    --header-top-bg: #020202;
+    --page-top-padding: 21px;
+  }
+.card{
+    display: grid;
+   padding: 0 24.5px;
+   --instock:#78A962;
+   --chack-color:#C94D3F;
+}
+.card__status{
+    font-size: 10px;
+    margin-bottom: 7px;
+    --text-color:#C94D3F;
+    color: var(--instock);
+}
+.card__status-
+
+.card__img{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    object-position: center;
+}
+.card__title{
+    font-size: 12px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+.card__price{
+    font-size: 18px;
+    font-weight: 600;
+}
+.card__price--old{
+    font-size: 14px;
+    font-weight: normal;
+    color: var(--color11);
+    text-decoration: line-through;
+}
