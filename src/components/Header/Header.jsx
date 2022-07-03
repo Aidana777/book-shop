@@ -3,8 +3,8 @@ import logo from '../../icons/icons8-книга-96.png'
 import avatar from '../../icons/avatar.png'
 import { ReactComponent as Search } from '../../icons/Search.svg'
 import { ReactComponent as Basket } from '../../icons/Card.svg'
-import { ReactComponent as FacebookIcon } from '../../icons/facebook.png'
-import { ReactComponent as InstagramIcon } from '../../icons/instagram.png'
+import { ReactComponent as FacebookIcon } from '../../icons/Facebook.svg'
+import { ReactComponent as InstagramIcon } from '../../icons/insta.svg'
 import './header.css'
 function Header() {
   return (

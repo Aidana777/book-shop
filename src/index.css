@@ -20,3 +20,20 @@ body {
   --header-top-bg: #020202;
   --page-top-padding: 21px;
 }
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}
+button{
+  font-family: inherit;
+  border: none;
+  cursor: pointer;
+  background: none;
+}
+a{
+  color: inherit;
+  text-decoration: none;
+}
+imgz{
+  display: block;
+}
