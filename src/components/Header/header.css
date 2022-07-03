@@ -1,0 +1,87 @@
+:root{
+    --color6:#cccc;
+    --header-top-bg: #020202;
+    --text-color: #FFFFFF;
+  
+  }
+  .container{
+    width: 800px;
+    margin: 0 auto;
+  }
+  .header{
+    border-bottom:1px solid var(--color6) ;
+  }
+  .header-top{
+   background-color:  var(--header-top-bg);
+    color:  var(--text-color);
+   
+  }
+  .header-top__content{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+    height: 44px;
+  }
+  .header-top__address{
+    text-align: center;
+  }
+  .header-top__contacts{
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 12px;
+    align-items: center;
+  }
+  .header-main{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    height: 92px;
+  }
+  .logo{
+    margin-right: 30px;
+    margin-left: 25px;
+    margin-top: 30px;
+    width: 40px;
+  }
+  .links{
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 25px;
+    align-items: center;
+    justify-content: start; 
+  }
+  .actions{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    column-gap: 25px;
+    align-items: center;
+  }
+  .avatar {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.avatar img {
+  height: 36px;
+  width: 36px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.cartBtn {
+  position: relative;
+}
+
+.cartBtn:after {
+  content: attr(data-count);
+  position: absolute;
+  right: -8px;
+  top: -6px;
+  display: block;
+  line-height: 17px;
+  width: 17px;
+  text-align: center;
+  background: var(--primary);
+  color: white;
+  font-size: 10px;
+  border-radius: 50%;
+}

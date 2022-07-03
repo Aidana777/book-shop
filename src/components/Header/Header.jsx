@@ -1,5 +1,11 @@
 import React from 'react'
-import { FaBook } from "react-icons/fa";
+import logo from '../../icons/icons8-книга-96.png'
+import avatar from '../../icons/avatar.png'
+import { ReactComponent as Search } from '../../icons/Search.svg'
+import { ReactComponent as Basket } from '../../icons/Card.svg'
+import { ReactComponent as FacebookIcon } from '../../icons/facebook.png'
+import { ReactComponent as InstagramIcon } from '../../icons/instagram.png'
+import './header.css'
 function Header() {
   return (
     <header className='header'>
@@ -13,36 +19,36 @@ function Header() {
           </p>
           <div className="header-top__contacts">
             <div className="header-top__phone">
-            Call Us: <a href="tel:001257679856">(0012)57679856</a>
+              Call Us: <a href="tel:001257679856">(0012)57679856</a>
             </div>
-             <a href="https://facebook.com">
-            <img src="" alt="F" />
-          </a>
-          <a href="https:instagram.com">
-            <img src="" alt="I" />
-          </a>
+            <a href="https://facebook.com">
+              <FacebookIcon />
+            </a>
+            <a href="https:instagram.com">
+              <InstagramIcon />
+            </a>
           </div>
         </div>
       </div>
       <div className="container header-main">
-        <img  src='' alt="" className='logo'/>
+        <img src={logo} alt="" className='logo' />
         <nav className="links">
           <a href="#">About us</a>
           <a href="#">All other </a>
           <a href="#"> Our Deals</a>
           <a href="#"> Contact</a>
         </nav>
-       <div className="actions">
+        <div className="actions">
           <button className='btn'>
-            <img src="" alt="" />
+            <Search />
           </button>
           <button className='btn'>
-            <img src="" alt="" />
+            <Basket />
           </button>
           <button className="avatar">
-            <img src="" alt="" />
+            <img src={avatar} alt="" />
           </button>
-       </div>
+        </div>
       </div>
 
     </header>
