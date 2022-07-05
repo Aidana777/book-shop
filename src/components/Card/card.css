@@ -20,8 +20,14 @@
     margin-bottom: 7px;
     --text-color:#C94D3F;
     color: var(--instock);
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 4px;
+    grid-auto-columns:max-content ;
 }
-.card__status-
+.card__status--instock{
+    color: var(--instock);
+}
 
 .card__img{
     width: 150px;

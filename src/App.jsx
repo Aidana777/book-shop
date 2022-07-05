@@ -9,7 +9,13 @@ function App() {
       <section>
         <h1>Our Books</h1>
         <div>
-          <Card />
+          <Card 
+          isInStock={true}
+          title="The Dead Romantics"
+          image="./img/The Dead Romantics.jpg"
+          priceOld={900}
+          price={600}
+          />
 
         </div>
       </section>
