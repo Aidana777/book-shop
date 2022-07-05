@@ -8,14 +8,50 @@ function App() {
       <Carousel />
       <section>
         <h1>Our Books</h1>
-        <div>
-          <Card 
+        <div className="list">
+          <Card
+            isInStock={true}
+            title="The Dead Romantics"
+            image="./img/The Dead Romantics.jpg"
+            priceOld={900}
+            price={600}
+          />
+
+          <Card
+            isInStock={true}
+            title="The Dead Romantics"
+            image="./img/The Dead Romantics.jpg"
+            priceOld={900}
+            price={600}
+          />
+
+
+          <Card
+            isInStock={true}
+            title="The Dead Romantics"
+            image="./img/The Dead Romantics.jpg"
+            priceOld={900}
+            price={600}
+          />
+
+
+          <Card
+            isInStock={true}
+            title="The Dead Romantics"
+            image="./img/The Dead Romantics.jpg"
+            priceOld={900}
+            price={600}
+          />
+
+<Card 
           isInStock={true}
           title="The Dead Romantics"
           image="./img/The Dead Romantics.jpg"
           priceOld={900}
           price={600}
           />
+
+
 
         </div>
       </section>

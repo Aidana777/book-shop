@@ -20,6 +20,9 @@ body {
   --header-top-bg: #020202;
   --page-top-padding: 21px;
 }
+img{
+  display: block;
+}
 .container{
   width: 1200px;
   margin: 0 auto;
@@ -35,6 +38,8 @@ a{
   text-decoration: none;
   margin-top: 5px;
 }
-img{
-  display: block;
+.list{
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
+  gap: 12px;
 }
